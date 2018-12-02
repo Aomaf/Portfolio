@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AomaF 🎯</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="head-nav">
+            <h2 id="logo" class="wow jello">
+                <div><span class="A">A</span>omaF</div>
+            </h2>
+            <ul id="navbar">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="welcome-section" class="intro">
+            <div class="welcome">
+                <div class="img">
+                    <div></div>
+                </div>
+                <div class="aboutme">
+                    <h1 class="wow bounceInDown">Amjed Osama</h1>
+                    <p>
+                        <span>HI there!</span><br>
+                        I'm <strong>Amjed Osama</strong>
+                        Front-end Developer focusing on building creative UI projects
+                        and giveing users best Experience.<br>
+                        &#9679; also i'm intersting on graphic design feel free to order.
+                    </p>
+
+
+                </div>
+            </div>
+        </section>
+        <span class="line"></span>
+    </header>
+    <section id="About-skills">
+        <a href=""></a>
+        <h1 class="h-1">About Me </h1>
+        <div class="inf">
+            <div class="para">
+                <p>My goal is to become a full stack develper and i'm on my way,
+                    at current time i'm front end developer and a graphic desinger i'm trying to build a confident knowledge in in html css and js a i'm foucsing on solidfiying my js skills</p>
+            </div>
+
+            <div class="shelf">
+                <div class="skill html wow fadeInLeft">
+                    <img src="img/html-5.svg" alt="html">
+                    <p>Html5</p>
+                </div>
+                <div class="skill css wow fadeInLeft" data-wow-delay=".2s">
+                    <img src="img/css-3.svg" alt="css">
+                    <p>Css3</p>
+                </div>
+                <div class="skill js wow fadeInLeft" data-wow-delay=".4s">
+                    <img src="img/js.svg" alt="JS">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill vue wow fadeInLeft" data-wow-delay=".6s">
+                    <img src="img/vue-dot-js.svg" alt="Vue">
+                    <p>VueJs</p>
+                </div>
+                <div class="skill des wow fadeInLeft" data-wow-delay=".8s">
+                    <img src="img/des.svg" alt="design">
+                    <p>Graphic design</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="projects">
+
+        </a>
+        <h1 class="h-1">Some Of My Work</h1>
+        <div class="projects">
+            <div class="work wow fadeInLeft">
+                <h2 class="project-title">vr landing page</h2>
+                <div class="pen"><iframe src="https://codepen.io/AomaF/full/BqyaxE/" frameborder="0"></iframe></div>
+            </div>
+
+            <div class="work wow fadeInLeft" data-wow-delay=".2s">
+                <h2 class="project-title">Tribute page</h2>
+                <div class="pen"><iframe src="https://codepen.io/AomaF/full/YOMeYM/" frameborder="0"></iframe></div>
+            </div>
+
+            <div class="work wow fadeInLeft" data-wow-delay=".6s">
+                <h2 class="project-title">Survey Form</h2>
+                <div class="pen"><iframe src="https://codepen.io/AomaF/full/qMzYRd/" frameborder="0"></iframe></div>
+            </div>
+
+            <div class="work wow fadeInLeft" data-wow-delay="1s">
+                <h2 class="project-title">nice clock</h2>
+                <div class="pen"><iframe src="https://codepen.io/AomaF/full/xaxrGv/" frameborder="0"></iframe></div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-1">Contact With me</h1>
+        <ul id="social">
+
+
+            <li>
+                <a href="https://twitter.com/A_omaf/" target="_blank">
+                    <span>
+
+                        <i class="fab fa-twitter wow slideInUp"></i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://web.facebook.com/profile.php?id=100004265882362" target="_blank">
+                    <span>
+                        <i class="fab fa-facebook-f wow slideInUp" data-wow-delay=".2s"></i></span>
+                </a>
+            </li>
+            <li>
+                <a id="profile-link" target="_blank" href="https://github.com/Aomaf">
+                    <span>
+
+                        <i class="fab fa-github wow slideInUp" data-wow-delay=".4s"></i>
+                    </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://codepen.io/AomaF/pens/popular/?grid_type=list">
+                    <span>
+                        <i class="fab fa-codepen wow slideInUp" data-wow-delay=".6s"></i>
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="https://dribbble.com/" target="_blank">
+                    <span>
+                        <i class="fab fa-dribbble wow slideInUp" data-wow-delay=".8s"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; Aomaf ❤</p>
+    </footer>
+    <script>
+        const nav = document.querySelector("nav");
+
+        function fixNav() {
+            if (window.scrollY > 0) {
+                document.body.classList.add('fixed');
+            } else {
+                document.body.classList.remove('fixed');
+            }
+        }
+        window.addEventListener('scroll', fixNav);
+
+    </script>
+
+    <!--    Animation on scroll -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+</body>
+
+</html>
